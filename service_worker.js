@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'twitter-redirect-pwa-caches';
 var urlsToCache = [
-    '/kamokakesu.github.io/twitter-redirect-pwa/',
+    'kamokakesu.github.io/twitter-redirect-pwa/',
 ];
 
 // インストール処理
