@@ -1,7 +1,6 @@
 {
   "manifest_version": "3", // マニフェストのバージョン
   "name": "Twitter Redirection", // アプリ名
-  "display_override": ["minimal-ui"], // こう書くとCustom Tabsのツールバーが出ないらしい…？
   "display": "standalone", // 全画面で表示する
   "start_url": "redirect.html", // redirect.htmlで起動せよ
   "icons": [
