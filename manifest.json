@@ -1,0 +1,14 @@
+{
+  "manifest_version": "3", // マニフェストのバージョン
+  "name": "Twitter Redirection", // アプリ名
+  "display": "standalone", // 全画面で表示する
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
