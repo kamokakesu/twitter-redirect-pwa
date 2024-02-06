@@ -3,13 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
 <link rel="manifest" href="manifest.json">
-<meta http-equiv="refresh" content="5;URL=https://twitter.com/">
-<style>body{background:#50ABF1 url("icon.png") center center no-repeat fixed}#app{display:none}</style>
-<title>Twitter Redirecting Page</title>
+<style>body{background:#50ABF1;color:#fff;}#app{width:80%;max-width:960px;margin:0 auto}a{color:#fff}</style>
+<title>Twitter Redirector</title>
 </head>
 <body>
-<div id="app">Redirecting...</div>
+<div id="app">
+<h1>Twitterにただリダイレクトされるだけのページ</h1>
+<p>
+ここはただTwitterにリダイレクトされるだけのPWAを置いてあるページです。<br>
+Kiwi Browserと組み合わせて使うとTwitterのアイコンのまんまでTwitterを使えるので便利かもしれない。<br>
+わりと適当に作ったので、使えるかどうかは運次第です。<br>
+なんとかなれーッ！
+</p>
+<p>
+参考文献：<br>
+<a href="https://qiita.com/poster-keisuke/items/6651140fa20c7aa18474">PWAをもっと簡単に初めてみる #JavaScript - Qiita</a>
+</p>
+<p>
+このページをでっち上げた奴：<br>
+<a href="https://lit.link">鴨池かけす</a>
+</p>
+<p>
+当ページは練習目的で作成されたものであり、Twitter社（X社）とは何ら関係ありません。
+</p>
+</div>
 <script>
 if ('serviceWorker' in navigator) {
 navigator.serviceWorker.register('service_worker.js').then(function(registration) {
